@@ -1,0 +1,66 @@
+Field: A set of objects in which rules of addition and multiplication apply i.e.if  the resultant is present in the set then the set is called a field.
+Subfield: A subset F of C which itself is a field under the addition and multiplication operations.
+
+Characterstic: If F is a field and if adding 1's finite number of times result into 0, then the least n such that sum of n 1's is zero is called characterstic of the field. If there doesn't exist any n then the field is called as the field of characterstic zero.
+
+Homogeneous linear equations: Linear equations of the form AX = Y for which X=0 is the only solution then such system of equations is called homogeneous.
+
+Equivalent systems of linear equations: Two systems of linear equations such that each equation in each system can be represented as linear combination of equations in other system then the 2 systems are called equivalent.
+Also, equivalent systems of linear equations have exactly the same solutions.
+
+//For all excercises, just the idea is given and not the actual proof
+Excercise 1:
+Q1. SInce we know that a field of rational number is a subfield of C and x,y are rational numbers in the set of complex numbers of the form x+y*sqrt(2)  then all the operations under addition and multiplication are elements of the subfield.
+Q6. If 2 systems of linear equations have exact same solutions, then they can be written as linear combinations of each other and by the definition and theorem 1, they are equivalent.
+Q7. Same reasoning as Q1.
+Q8. Rational number can be denoted as p/q for q!=0. Thus, adding the integer 1 finite number of times to a fraction will not result into 0. Thus, each field of characterstic zero contains a copy of rational number field. //Same reasoning can be applied for a field of complex numbers as well
+
+Elementary row operations on a matrix:
+1. multiplication of one row of matrix A by a scalar 'c' where c!=0
+2. r = r+c*s where c is scalar, r,s are some rows of A and r!=s
+3. interchange two rows in A.
+
+Row equivalent matrices:
+For A, B be 2 mxn matrices over the field F, B is row-equivalent to A if B can be obtained by a finite number of elementary row operations on A.
+
+Row-reduced matrix:
+A mxn matrix R is row-reduced if:
+1. the first non-zero entry in each non-zero row of R is equal to 1
+2. each column of R which contains the leading non-zero entry of some row has all it's other entries zero.
+
+Excercise 2:
+Q7: Same logic as exchanging values in 2 variables without using a third vaariable.
+Q8.a: Solving the system of equations AX=0, we get (ad-bc)(x1) = 0. If every entry of A is zero, then (ad-bc) = 0. This means any value of x1 and x2 will satisfy the system of equations.
+Q8.b: From (a), we see that if (ad-bc) != 0, then x1 and x2 has to be zero.
+Q8.c: From (a), we see that if (ad-bc) = 0, then if (x1,x2) is a solution then, (y*x1,y*x2) is also a solution.
+
+Row-reduced echlon matrices:
+An mxn matrix R is row-reduced echlon if:
+1. R is row reduced.
+2. every row of R with all its entries = 0 occurs below every row which has a non-zero entry
+3. IF rows 1,2,...,r are the non-zero rows of R, and if leading non-zero entry of row i occurs in column ki where i=1,2,....,r then k1<k2<..<kr
+
+Augmented matrix, matrix multiplication are known definitions.
+
+Elementary matrix: An mxn matrix is said to be elementary matrix if it can be obtained from mxm identity matrix by means of a single elementary row  operation.
+
+//Note: Identity matrix are always square matrix so in the above definition, m>n
+
+For A,B be mxn matrices, B is row-equivalent to A if and only if B=PA, where P is a product of mxm elementary matrices.
+
+Left inverse of a matrix: For an nxn matrix A, if B is nxn matrix such that BA=I then B is called left inverse of A.
+Right inverse of a matrix: For an nxn matrix A, if B is nxn matrix such that AB=I then B is called right inverse of A.
+Invertible matrix: For an nxn matrix A, if nxn matrix B such that AB=BA=I, then B is called two-sided inverse of A and matrix A is said to be invertible.
+
+Important observations: A is invertible = A is row-equivalent to nxn I = A is product of elementary matrices = (AX=0) has only a trivial solution = (AX=Y) has a solution X for each nx1 matrix Y.
+
+Excercise 6:
+Q6. We get a 2x2  row-reduced echlon matrix. It is not invertible.
+Q8: If (ad-bc) = 0, we get row-reduced echlon matrix.
+Q9: If any entry in the diagonal is zero, we can obtain a row-reduced echlon matrix by performing elementary row operations.
+Q10: The last 2 rows will be same(while reducing to I) for any mxn and nxm matrix when multiplied together resulting into row-reduced echlon matrix.
+Q11:
+Q12:
+
+
+
