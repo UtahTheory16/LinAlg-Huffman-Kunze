@@ -1,0 +1,12 @@
+A vector space consist of:
+1. a field F of scalars
+2. a set V of objects, called vectors
+3. vector addition  and scalar multiplication rules are satisfied.
+
+Examples:
+1. the n-tuple space
+2. the space of mxn matrices
+3. the space of functions from a set to a field
+4. the space of polynomial functions over a field F
+the field C of complex numbers
+

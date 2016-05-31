@@ -1,0 +1,28 @@
+A vector space consist of:
+1. a field F of scalars
+2. a set V of objects, called vectors
+3. vector addition  and scalar multiplication rules are satisfied.
+
+Examples:
+1. the n-tuple space
+2. the space of mxn matrices
+3. the space of functions from a set to a field
+4. the space of polynomial functions over a field F
+5. the field C of complex numbers over the field of real numbers
+
+If B = c1*A1+c2*A2+....+cn*An for A,B be any 2 vectors in V and c1....cn be scalars in F, then B is said to be a linear combination of A in V.
+
+//some parts which are covered in this chapter but I am not going to define them here
+Geometric interpretation of vector addition and vector multiplication.
+
+Subspaces: A subspace of vector space V is a subset W of V which is itself a vector space over the field F with operations of vector addition and scalar multiplication on V.
+Note: For subspaces, the commutative and associative properties need not be checked.
+Example:
+1. zero-subspace
+2. Hermitian matrix is not a subspace of all nxn matrices over C.
+3. The solution space of a system of homogeneous linear equations.
+
+Intersection of any collection of subspaces of V is a subspace of V.
+
+
+
